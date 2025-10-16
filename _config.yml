@@ -1,0 +1,26 @@
+remote_theme: alshedivat/al-folio
+
+title: "Zahra Kanani"
+description: "AI for Healthcare · Biomedical Engineer"
+url: "https://zahra-kanani.github.io"
+baseurl: ""
+
+author:
+  name: "Zahra Kanani"
+  email: "zahrakanani26@gmail.com"
+  linkedin: "zahrakanani"
+  location: "Grenoble, France"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+collections:
+  pages:
+    output: true
+
+header:
+  navbar:
+    disable_search: true
