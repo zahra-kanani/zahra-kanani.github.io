@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 ---
+<link rel="stylesheet" href="assets/css/style.css">
 
 <div class="section-box">
 
