@@ -140,3 +140,6 @@ main.container {
   .hero-img { text-align: center; flex: 0 0 auto; }
   .hero-img .profile-img { width: 220px; height: 220px; }
 }
+/* make page a bit wider */
+body { max-width: 1040px; }
+.container { max-width: 1040px; }
