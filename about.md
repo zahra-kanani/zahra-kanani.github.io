@@ -4,7 +4,6 @@ title: About
 ---
 <link rel="stylesheet" href="assets/css/style.css">
 
-#<img src="zahra_img.jpg" width="250" style="border-radius:15px;margin-bottom:10px">
 
 **Zahra Kanani**  
 Grenoble, France  
