@@ -2,6 +2,7 @@
 layout: page
 title: Certificates
 ---
+<link rel="stylesheet" href="assets/css/style.css">
 
 ### Certifications
 
