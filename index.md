@@ -2,6 +2,7 @@
 layout: page
 title: Welcome
 ---
+<link rel="stylesheet" href="assets/css/style.css">
 
 # Welcome to My Blog
 
