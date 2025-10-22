@@ -2,6 +2,7 @@
 layout: page
 title: CV
 ---
+<link rel="stylesheet" href="assets/css/style.css">
 
 # Curriculum Vitae — Zahra Kanani
 
