@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 ---
+<link rel="stylesheet" href="assets/css/style.css">
 
 ### Selected AI Projects
 
