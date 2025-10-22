@@ -1,0 +1,54 @@
+/* --- Custom Styling for Zahra Kanani Blog --- */
+
+body {
+  background-color: #f9fafb;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  color: #222;
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #004d40;
+  font-weight: 600;
+  margin-top: 1.5em;
+}
+
+/* Links */
+a {
+  color: #00796b;
+  text-decoration: none;
+  border-bottom: 1px dotted #00796b;
+}
+a:hover {
+  color: #004d40;
+  border-bottom: 1px solid #004d40;
+}
+
+/* Boxes for sections */
+.section-box {
+  background: #ffffff;
+  padding: 25px;
+  margin: 25px 0;
+  border-left: 4px solid #00796b;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border-radius: 10px;
+}
+
+/* For profile image */
+.profile-img {
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
