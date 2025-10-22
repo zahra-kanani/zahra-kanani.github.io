@@ -40,9 +40,11 @@ a:hover {
 
 /* For profile image */
 .profile-img {
-  border-radius: 12px;
+  border-radius: 50%;
   width: 220px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  height: 220px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 /* Footer */
