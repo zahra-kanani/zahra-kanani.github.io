@@ -5,7 +5,7 @@ title: Home
 
 <div class="section-box hero">
   <div class="hero-text">
-    <h1>Zahra Kanani</h1>
+    <h1>Welcome to My Blog</h1>
     <p>
       Biomedical Engineer specializing in
       <strong>Artificial Intelligence for Healthcare</strong> and
