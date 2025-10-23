@@ -13,12 +13,14 @@ title: CV
     </a>
   </div>
 
-  <!-- Clean embed without Google Viewer or toolbar -->
-  <object data="CV_zahra.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="950px"
-          style="border:none; background-color:white;">
-    <p>Your browser does not support inline PDFs. 
-       <a href="CV_zahra.pdf">Click here to download the CV.</a>
-    </p>
-  </object>
+  <!-- Perfectly clean embed (no black background or toolbar) -->
+  <div style="background:#ffffff; border:none; border-radius:8px; overflow:hidden;">
+    <embed 
+      src="CV_zahra.pdf#toolbar=0&navpanes=0&scrollbar=0" 
+      type="application/pdf"
+      width="100%" 
+      height="950px"
+      style="border:none; background:#ffffff;">
+  </div>
 
 </div>
