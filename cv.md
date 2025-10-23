@@ -6,11 +6,12 @@ title: CV
 <div class="section-box" style="box-shadow:none; border:none; background:#ffffff;">
   <h1 style="margin-bottom: 20px;">Curriculum Vitae</h1>
 
+  <!-- Clean PDF embed using Google Docs Viewer (no black border) -->
   <iframe 
-      src="CV_zahra.pdf"
+      src="https://docs.google.com/gview?url=https://zahra-kanani.github.io/CV_zahra.pdf&embedded=true"
       width="100%" 
       height="900px"
-      style="border: none; outline: none;">
+      style="border: none; outline: none; background-color: transparent;">
   </iframe>
 
   <p style="text-align: center; margin-top: 20px;">
