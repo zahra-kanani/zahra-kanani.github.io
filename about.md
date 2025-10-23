@@ -28,10 +28,3 @@ My goal is to contribute to the development of <strong>trustworthy, clinically v
 
 <hr style="margin:24px 0; border:0; border-top:1px solid #e0e0e0;">
 
-<p>
-📍 Grenoble, France <br>
-📧 <a href="mailto:zahrakanani26@gmail.com">zahrakanani26@gmail.com</a> <br>
-🔗 <a href="https://www.linkedin.com/in/zahrakanani" target="_blank">linkedin.com/in/zahrakanani</a>
-</p>
-
-</div>
