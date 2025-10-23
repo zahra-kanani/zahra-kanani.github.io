@@ -10,4 +10,15 @@ title: CV
     <h1 style="margin:0; color:#004d40;">Curriculum Vitae</h1>
     <a href="CV_zahra.pdf" download 
        style="background:#00796b;color:#fff;padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:600">
-      📄 Dow
+      📄 Download Full CV (PDF)
+    </a>
+  </div>
+
+  <!-- Smaller, centered CV image -->
+  <div style="display:flex; justify-content:center;">
+    <img src="assets/img/zahra_cv.jpg" 
+         alt="Zahra Kanani Curriculum Vitae" 
+         style="width:85%; max-width:950px; height:auto; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.05);">
+  </div>
+
+</div>
