@@ -13,7 +13,7 @@ title: CV
     </a>
   </div>
 
-  <img src="assets/img/zahra_cv.png" 
+  <img src="assets/img/zahra_cv.PNG" 
        alt="Zahra Kanani Curriculum Vitae" 
        style="width:100%; height:auto; display:block; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.08); background:#fff;">
 
