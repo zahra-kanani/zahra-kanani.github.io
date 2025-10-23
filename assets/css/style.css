@@ -143,7 +143,7 @@ main.container { padding-top: 24px; }
   .nav { gap: 16px; flex-wrap: wrap; }
   .brand { font-size: 1.25rem; margin-right: 0; }
 }
-/* --- Social Icons on Home --- */
+/* --- Social Icons (compact + clean) --- */
 .social-icons {
   margin-top: 18px;
   display: flex;
@@ -152,14 +152,21 @@ main.container { padding-top: 24px; }
 }
 
 .social-icons img {
-  width: 30px;
-  height: 30px;
-  filter: brightness(0) saturate(100%) invert(27%) sepia(67%) saturate(372%) hue-rotate(127deg) brightness(91%) contrast(88%);
-  transition: transform 0.2s ease, filter 0.2s ease;
+  width: 28px;
+  height: 28px;
+  filter: grayscale(100%) brightness(0.2) invert(30%) sepia(56%) saturate(392%) hue-rotate(122deg) brightness(90%) contrast(88%);
+  transition: transform 0.25s ease, filter 0.25s ease;
 }
 
 .social-icons img:hover {
-  transform: scale(1.15);
-  filter: brightness(0) saturate(100%) invert(17%) sepia(91%) saturate(612%) hue-rotate(128deg) brightness(90%) contrast(96%);
+  transform: scale(1.1);
+  filter: brightness(0) saturate(100%) invert(20%) sepia(94%) saturate(574%) hue-rotate(130deg) brightness(90%) contrast(95%);
+}
+
+/* Center icons neatly under text on small screens */
+@media (max-width: 900px) {
+  .social-icons {
+    justify-content: center;
+  }
 }
 
