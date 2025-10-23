@@ -3,20 +3,22 @@ layout: page
 title: CV
 ---
 
-<div class="section-box" style="box-shadow:none; border:none; background:#ffffff;">
-  <h1 style="margin-bottom: 20px;">Curriculum Vitae</h1>
+<div class="section-box" style="box-shadow:none; border:1px solid #00796b20; border-radius:10px; background:#ffffff; padding:30px;">
 
-  <!-- Clean PDF embed using Google Docs Viewer (no black border) -->
-  <iframe 
-      src="https://docs.google.com/gview?url=https://zahra-kanani.github.io/CV_zahra.pdf&embedded=true"
-      width="100%" 
-      height="900px"
-      style="border: none; outline: none; background-color: transparent;">
-  </iframe>
-
-  <p style="text-align: center; margin-top: 20px;">
-    📄 <a href="CV_zahra.pdf" download style="font-weight: bold; color: #00796b; border-bottom: none;">
-    Download Full CV (PDF)
+  <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; margin-bottom:20px;">
+    <h1 style="margin:0;">Curriculum Vitae</h1>
+    <a href="CV_zahra.pdf" download 
+       style="background-color:#00796b; color:#fff; padding:8px 16px; border-radius:6px; text-decoration:none; font-weight:500;">
+       📄 Download Full CV (PDF)
     </a>
-  </p>
+  </div>
+
+  <!-- Clean embed without Google Viewer or toolbar -->
+  <object data="CV_zahra.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="950px"
+          style="border:none; background-color:white;">
+    <p>Your browser does not support inline PDFs. 
+       <a href="CV_zahra.pdf">Click here to download the CV.</a>
+    </p>
+  </object>
+
 </div>
