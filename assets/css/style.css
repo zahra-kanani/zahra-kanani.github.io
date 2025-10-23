@@ -6,7 +6,7 @@ body {
   color: #222;
   line-height: 1.6;
   margin: 40px auto;
-  max-width: 1040px;              /* wider page */
+  max-width: 1200px;              /* wider page */
   padding: 0 20px;
 }
 
@@ -17,7 +17,7 @@ h1, h2, h3 {
   margin-top: 1.5em;
 }
 
-/* Links */
+/* Links (default) */
 a {
   color: #00796b;
   text-decoration: none;
@@ -58,9 +58,9 @@ footer,
   z-index: 50;
 }
 
-/* container is used in header and main; make header row flex */
+/* header row flex */
 .topbar .container {
-  max-width: 1100px;         /* a bit wider so items don't wrap */
+  max-width: 1200px;         /* match page width */
   margin: 0 auto;
   padding: 12px 20px;
   display: flex;
@@ -78,6 +78,7 @@ footer,
   white-space: nowrap;
   margin-right: 28px;
 }
+.brand:hover { border-bottom: none; }
 
 .nav {
   display: flex;
@@ -90,7 +91,7 @@ footer,
   padding: 6px 0;
   color: #03695f;
   text-decoration: none;
-  border-bottom: none;
+  border-bottom: none;        /* no dotted underline in navbar */
 }
 .nav a:hover { color: #004d40; }
 .nav a.active {
@@ -105,11 +106,11 @@ main.container { padding-top: 24px; }
    PROFILE IMAGE (home hero)
 ------------------------------------------- */
 .profile-img {
-  border-radius: 12px;        /* rounded rectangle; set 50% for a circle */
-  width: 320px;
-  height: 320px;
+  border-radius: 16px;        /* rounded rectangle; set 50% for a circle */
+  width: 360px;
+  height: 360px;
   object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
 
 /* ------------------------------------------
@@ -117,23 +118,48 @@ main.container { padding-top: 24px; }
 ------------------------------------------- */
 .hero {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;  /* text left (wider), image right */
-  gap: 32px;
+  grid-template-columns: 1.25fr 1fr;  /* text left (wider), image right */
+  gap: 40px;
   align-items: center;
 }
-.hero-text { min-width: 280px; }
-.hero-text h1 { margin-top: 0; }
+.hero-text { min-width: 320px; }
+.hero-text h1 { margin-top: 0; font-size: 2.4rem; }
 .hero-links a { margin-right: 10px; }
 .hero-img { text-align: right; }
 
-/* Responsive: stack on small screens */
-@media (max-width: 900px) {
-  .hero { grid-template-columns: 1fr; }
-  .hero-img { text-align: center; }
-  .profile-img { width: 240px; height: 240px; }
+/* ------------------------------------------
+   Social Icons (compact, no underline)
+------------------------------------------- */
+.social-icons {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.social-icons a {
+  border-bottom: none !important;   /* remove dotted underline under icons */
+  line-height: 0;                    /* remove baseline gap */
+}
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  filter: grayscale(100%) brightness(0.3) invert(25%) sepia(55%) saturate(420%) hue-rotate(125deg) contrast(90%);
+  transition: transform .2s ease, filter .2s ease;
+}
+.social-icons img:hover {
+  transform: scale(1.1);
+  filter: brightness(0) saturate(100%) invert(18%) sepia(96%) saturate(600%) hue-rotate(128deg) brightness(92%) contrast(95%);
 }
 
-/* Very small screens */
+/* Responsive: stack on small screens */
+@media (max-width: 980px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-img { text-align: center; }
+  .profile-img { width: 260px; height: 260px; }
+  .social-icons { justify-content: center; }
+}
+
+/* Very small screens: stack brand + menu nicely */
 @media (max-width: 760px) {
   .topbar .container {
     flex-direction: column;
@@ -143,30 +169,3 @@ main.container { padding-top: 24px; }
   .nav { gap: 16px; flex-wrap: wrap; }
   .brand { font-size: 1.25rem; margin-right: 0; }
 }
-/* --- Social Icons (compact + clean) --- */
-.social-icons {
-  margin-top: 18px;
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-
-.social-icons img {
-  width: 28px;
-  height: 28px;
-  filter: grayscale(100%) brightness(0.2) invert(30%) sepia(56%) saturate(392%) hue-rotate(122deg) brightness(90%) contrast(88%);
-  transition: transform 0.25s ease, filter 0.25s ease;
-}
-
-.social-icons img:hover {
-  transform: scale(1.1);
-  filter: brightness(0) saturate(100%) invert(20%) sepia(94%) saturate(574%) hue-rotate(130deg) brightness(90%) contrast(95%);
-}
-
-/* Center icons neatly under text on small screens */
-@media (max-width: 900px) {
-  .social-icons {
-    justify-content: center;
-  }
-}
-
