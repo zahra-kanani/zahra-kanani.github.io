@@ -8,7 +8,9 @@ title: Projects
 
 **1. Improving Semi-Supervised Learning under Class Imbalance**  
 Developed a hybrid AdaMatch–FlexMatch algorithm using PyTorch.  
-→ Improved minority-class accuracy while preserving majority-class performance.
+→ Improved minority-class accuracy while preserving majority-class performance.  
+
+[Notice: Full Report (PDF)](/assets/pdf/improving_ssl_class_imbalance.pdf)
 
 **2. Image Classification with CNN**  
 Built TensorFlow/Keras CNN models for biomedical image classification.
