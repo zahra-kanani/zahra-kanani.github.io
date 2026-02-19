@@ -24,4 +24,7 @@ Compared TF-IDF vs PubMedBERT representations for healthcare text mining.
 Developed a Python-based search engine using PyTerrier for biomedical abstracts.
 
 **5. COVID-19 Abstract Analysis**  
-Processed and analyzed PubMed abstracts with spaCy and MetaMap.
+Processed and analyzed PubMed abstracts with spaCy.
+
+[View Project (HTML)](/assets/projects/covid19-nlp-analysis.html) · [GitHub Code](https://github.com/zahra-kanani/covid19-nlp-analysis
+)
